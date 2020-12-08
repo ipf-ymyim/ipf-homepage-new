@@ -1,13 +1,28 @@
 import React from "react";
-import styled from "styled-components";
 
-import Container from "../components/Container";
+import TitleSection from "../sections/Home/TitleSection";
+import AboutSection from "../sections/Home/AboutSection";
+import ProductionSection from "../sections/Home/ProductSection";
+import NewsSection from "../sections/Home/NewsSection";
+import CareerSection from "../sections/Home/CareerSection";
+import BettSection from "../sections/Home/BettSection";
+import AwardsSection from "../sections/Home/AwardsSection";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <Container>
-      <p>Here</p>
-    </Container>
+    <>
+      <Navigation />
+      <TitleSection />
+      <AboutSection />
+      <ProductionSection />
+      <NewsSection />
+      <CareerSection />
+      <BettSection />
+      <AwardsSection />
+      <Footer />
+    </>
   );
 }
 
